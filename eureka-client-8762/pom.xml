@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>cn.hwy</groupId>
-    <artifactId>eurekaclient</artifactId>
+    <artifactId>eurekaclient-8762</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>eurekaclient</name>
 
@@ -33,17 +33,12 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.8.0-M1</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
