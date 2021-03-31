@@ -9,7 +9,7 @@ eureka:
   instance:
     #访问路径可以显示IP地址
     prefer-ip-address: true
-      instance-id: eureka-client8763
+    instance-id: eureka-client8763
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/

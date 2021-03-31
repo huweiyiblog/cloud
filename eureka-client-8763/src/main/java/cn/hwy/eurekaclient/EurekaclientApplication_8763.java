@@ -1,17 +1,15 @@
-package cn.hwy.serverribbon;
+package cn.hwy.eurekaclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EnableDiscoveryClient
-public class ServerRibbonApplication {
+public class EurekaclientApplication_8763 {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServerRibbonApplication.class, args);
+        SpringApplication.run(EurekaclientApplication_8763.class, args);
     }
 
 }

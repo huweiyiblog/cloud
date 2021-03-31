@@ -15,6 +15,7 @@
         <module>eureka-server</module>
         <module>eureka-client-8762</module>
         <module>eureka-client-8763</module>
+        <module>server-ribbon</module>
     </modules>
 
     <parent>
